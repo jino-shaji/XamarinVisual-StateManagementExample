@@ -27,19 +27,19 @@
     </ContentPage.Resources>
     <ContentPage.Content>
         <StackLayout Orientation="Vertical" >
-            <Frame x:Name="AllNewsTab" Padding="20,20,20,20" HeightRequest="20" WidthRequest="50" HorizontalOptions="FillAndExpand" CornerRadius="3" HasShadow="False" VerticalOptions="FillAndExpand">
+            <Frame x:Name="AllNewsTab" Padding="10,5,10,5" HeightRequest="20" WidthRequest="50" HorizontalOptions="FillAndExpand" CornerRadius="3" HasShadow="False" VerticalOptions="FillAndExpand">
                 <Label Text="All" FontSize="Large" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" HorizontalOptions="Center"/>
                 <Frame.GestureRecognizers>
                     <TapGestureRecognizer NumberOfTapsRequired="1" Tapped="Tab_Tapped"/>
                 </Frame.GestureRecognizers>
             </Frame>
-            <Frame x:Name="AllNewsTab2" Padding="20,20,20,20" HeightRequest="20" WidthRequest="50" HorizontalOptions="FillAndExpand" CornerRadius="3" HasShadow="False" VerticalOptions="FillAndExpand">
+            <Frame x:Name="AllNewsTab2" Padding="10,5,10,5" HeightRequest="20" WidthRequest="50" HorizontalOptions="FillAndExpand" CornerRadius="3" HasShadow="False" VerticalOptions="FillAndExpand">
                 <Label Text="1" FontSize="Large" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" HorizontalOptions="Center"/>
                 <Frame.GestureRecognizers>
                     <TapGestureRecognizer NumberOfTapsRequired="1" Tapped="Tab_Tapped"/>
                 </Frame.GestureRecognizers>
             </Frame>
-            <Frame x:Name="AllNewsTab3" Padding="20,20,20,20" HeightRequest="20" WidthRequest="50" HorizontalOptions="FillAndExpand" CornerRadius="3" HasShadow="False" VerticalOptions="FillAndExpand">
+            <Frame x:Name="AllNewsTab3" Padding="10,5,10,5" HeightRequest="20" WidthRequest="50" HorizontalOptions="FillAndExpand" CornerRadius="3" HasShadow="False" VerticalOptions="FillAndExpand">
                 <Label Text="2" FontSize="Large" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" HorizontalOptions="Center"/>
                 <Frame.GestureRecognizers>
                     <TapGestureRecognizer NumberOfTapsRequired="1" Tapped="Tab_Tapped"/>
